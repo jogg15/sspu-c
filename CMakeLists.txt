@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.28.3)
-project(calc C)
+project(cprojects C)
 
 set(CMAKE_C_STANDARD 11)
 set(PROGRAMS bmi calc kpn average)
