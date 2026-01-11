@@ -6,10 +6,10 @@ int main () {
     double vysledek, x, y;
 
     printf("Zadej znamenko [+, -, *, /]: ");
-    scanf("%c", &znamenko);
+    scanf(" %c", &znamenko);
 
     printf("Zadej dve cislice: ");
-    scanf("%lf %lf", &x, &y);
+    scanf(" %lf %lf", &x, &y);
 
     switch (znamenko) {
         case '+':
@@ -28,6 +28,6 @@ int main () {
             printf("Neplatne znamenko.\n");
             return 1;
     }
-        printf("%.2lf", vysledek);
+        printf("%.2lf\n", vysledek);
     return 0;
 }

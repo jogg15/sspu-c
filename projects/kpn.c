@@ -28,7 +28,7 @@ int main() {
         return 1;
     }
 
-    const int vysledek = rps(user, comp);
+    const int vysledek = kpn(user, comp);
 
     if (vysledek == -1)
         printf("Remiza!\n");
