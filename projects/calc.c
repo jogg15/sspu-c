@@ -1,5 +1,4 @@
 #import <stdio.h>
-#import <float.h>
 
 int main () {
     char operator;
