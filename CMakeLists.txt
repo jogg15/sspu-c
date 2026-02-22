@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.28.3)
 project(cprojects C)
 
 set(CMAKE_C_STANDARD 11)
-set(PROGRAMS bmi calc kpn average frac-calc)
+set(PROGRAMS bmi calc kpn average frac-calc savings)
 
 foreach(p ${PROGRAMS})
     add_executable(${p} projects/${p}.c)
